@@ -1,4 +1,6 @@
-export const buttonVariants = {
+import { BoxVariantsProps } from "../types";
+
+export const buttonVariants: BoxVariantsProps = {
   defaults: {
     borderRadius: "s",
     padding: "m",

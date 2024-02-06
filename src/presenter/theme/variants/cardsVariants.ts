@@ -1,4 +1,6 @@
-export const cardsVariants = {
+import { BoxVariantsProps } from "../types";
+
+export const cardsVariants: BoxVariantsProps = {
   defaults: {},
   primary: {
     backgroundColor: "primaryCardBackground",

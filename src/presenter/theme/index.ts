@@ -1,11 +1,12 @@
 import { createTheme } from "@shopify/restyle";
 import { darkColors, lightColors } from "./colors";
 import { fonts } from "./fonts";
+import { Theme } from "./types";
 import { buttonVariants } from "./variants/buttonVariants";
 import { cardsVariants } from "./variants/cardsVariants";
 import { textVariants } from "./variants/textVariants";
 
-const theme = createTheme({
+const theme = createTheme<Theme>({
   colors: lightColors,
   activeOpacity: 0.8,
   fonts: fonts,
@@ -40,9 +41,4 @@ const darkTheme: Theme = {
   colors: darkColors,
 };
 
-export type Theme = typeof theme;
-export type ThemeColors = typeof darkColors;
-export type SpacingTheme = keyof Theme["spacing"];
-export type BorderRadiiTheme = keyof Theme["borderRadii"];
-export type SizesTheme = keyof Theme["sizes"];
 export { darkTheme, theme };

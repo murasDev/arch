@@ -1,6 +1,7 @@
 import { fonts } from "../fonts";
+import { TextVariantsType } from "../types";
 
-export const textVariants = {
+export const textVariants: TextVariantsType = {
   defaults: {
     color: "mainForeground",
     fontFamily: fonts.regular,

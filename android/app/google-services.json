@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "279251751460",
+    "project_id": "arch-d598d",
+    "storage_bucket": "arch-d598d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279251751460:android:6fea7140c81a9c2f593eb1",
+        "android_client_info": {
+          "package_name": "com.murasDev.arch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279251751460-4kc32ds64r0ujtgsieciajngrqthej09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.murasDev.arch",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "279251751460-ceqo8jkf9njr2m369d1e28kb5m61alcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHK_g98BiYY4d0FiYkpCfG9vTwkTthFR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279251751460-ceqo8jkf9njr2m369d1e28kb5m61alcu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "279251751460-t6jvnvt8qe3sk2nvdr8u3j131kvil984.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.murasDev.arch"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

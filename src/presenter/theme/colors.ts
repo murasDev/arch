@@ -1,6 +1,6 @@
-import { palette } from "./palette";
+import { ThemeColors, ThemePalette } from "./types";
 
-export const darkColors = {
+export const darkColors = (palette: ThemePalette): ThemeColors => ({
   mainBackground: palette.black,
   mainForeground: palette.yellow,
 
@@ -15,9 +15,9 @@ export const darkColors = {
   error: palette.red01,
   white: palette.white,
   transparent: "transparent",
-};
+});
 
-export const lightColors: typeof darkColors = {
+export const lightColors = (palette: ThemePalette): ThemeColors => ({
   mainBackground: palette.lightGray,
   mainForeground: palette.yellow,
 
@@ -31,4 +31,4 @@ export const lightColors: typeof darkColors = {
   error: palette.red01,
   white: palette.white,
   transparent: "transparent",
-};
+});

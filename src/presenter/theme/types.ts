@@ -11,7 +11,7 @@ import {
   TypographyProps,
 } from "@shopify/restyle";
 
-type ThemeColors = {
+export type ThemeColors = {
   mainBackground: string;
   mainForeground: string;
 
@@ -58,6 +58,19 @@ export type ThemeFontsProps = {
   semiBold: string;
 };
 
+export type ThemePalette = {
+  purple: string;
+  white: string;
+  black: string;
+  midBlack: string;
+  darkGray: string;
+  midGray: string;
+  lightGray: string;
+  lightGray01: string;
+  red01: string;
+  yellow: string;
+  successGreen: string;
+};
 export interface Theme extends BaseTheme {
   colors: ThemeColors;
   activeOpacity: number;
@@ -68,6 +81,14 @@ export interface Theme extends BaseTheme {
   buttonVariants?: BoxVariantsProps;
   cardVariants?: BoxVariantsProps;
   textVariants?: TextVariantsType;
+}
+
+export interface ThemeConfigResponse {
+  sizes: ThemeSizesTypes;
+  spacing: ThemeSpacingTypes;
+  borderRadii: ThemeBorderTypes;
+  activeOpacity: number;
+  palette: ThemePalette;
 }
 
 export type TextVariantsType = {

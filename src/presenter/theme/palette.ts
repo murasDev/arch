@@ -1,4 +1,6 @@
-export const palette = {
+import { ThemePalette } from "./types";
+
+export const palette: ThemePalette = {
   purple: "#5A31F4",
   white: "#FFF",
   black: "#121214",

@@ -1,6 +1,6 @@
 import { useTheme } from "@shopify/restyle";
-import { Theme } from "../theme";
+import { AppTheme } from "../theme";
 
-const useAppTheme = () => useTheme<Theme>();
+const useAppTheme = () => useTheme<AppTheme>();
 
 export default useAppTheme;

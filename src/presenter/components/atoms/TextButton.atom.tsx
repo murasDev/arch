@@ -12,7 +12,7 @@ export default function TextButton({ title, onPress }: Props) {
   const theme = useAppTheme();
   return (
     <TouchableOpacity activeOpacity={theme.activeOpacity} onPress={onPress}>
-      <Text variant="primaryColorCardText">{title}</Text>
+      <Text variant="body">{title}</Text>
     </TouchableOpacity>
   );
 }

@@ -12,7 +12,6 @@ export const useSelectedItemStore = create<AuthStoreType>((set) => {
     setSelectedItem: (item) => set(() => ({ selectedItem: item })),
     removeSelectedItem: () =>
       set(() => {
-        console.log("removeSelectedItem");
         return { selectedItem: null };
       }),
   };

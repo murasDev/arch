@@ -1,6 +1,4 @@
-import { Theme } from "@/presenter/theme";
+import { AppTheme } from "@/presenter/theme";
 import { createText } from "@shopify/restyle";
 
-export const Text = createText<Theme>();
-
-<Text>Hello World</Text>;
+export const Text = createText<AppTheme>();

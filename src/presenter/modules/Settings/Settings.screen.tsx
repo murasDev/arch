@@ -26,12 +26,12 @@ export default function Settings() {
           justifyContent="space-between"
         >
           <Box alignItems="center" flexDirection="row" gap="s">
-            <Icon color="primaryCardBorderColor" name="streetview" size="l" />
+            <Icon color="primaryCardBorderColor" name="streetview" size={24} />
             <Text variant="buttonTitle" color="white">
               Endereço
             </Text>
           </Box>
-          <Icon color="primaryCardBorderColor" name="chevron-right" size="l" />
+          <Icon color="primaryCardBorderColor" name="chevron-right" size={24} />
         </Box>
       </TouchableOpacity>
 
@@ -47,12 +47,12 @@ export default function Settings() {
           justifyContent="space-between"
         >
           <Box alignItems="center" flexDirection="row" gap="s">
-            <Icon color="error" name="logout" size="l" />
+            <Icon color="error" name="logout" size={24} />
             <Text variant="buttonTitle" color="error">
               Logout
             </Text>
           </Box>
-          <Icon color="error" name="chevron-right" size="l" />
+          <Icon color="error" name="chevron-right" size={24} />
         </Box>
       </TouchableOpacity>
     </Box>

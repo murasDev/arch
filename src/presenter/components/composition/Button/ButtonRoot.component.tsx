@@ -1,5 +1,5 @@
 import useAppTheme from "@/presenter/hooks/useAppTheme";
-import { Theme } from "@/presenter/theme";
+import { AppTheme } from "@/presenter/theme";
 import {
   LayoutProps,
   SpacingProps,
@@ -13,11 +13,11 @@ import React from "react";
 import { ActivityIndicator, TouchableOpacity } from "react-native";
 import { Box } from "../../atoms/Box.atom";
 
-type BoxCustomProps = SpacingProps<Theme> &
-  LayoutProps<Theme> &
-  VariantProps<Theme, "buttonVariants">;
+type BoxCustomProps = SpacingProps<AppTheme> &
+  LayoutProps<AppTheme> &
+  VariantProps<AppTheme, "buttonVariants">;
 
-const CustomBox = createRestyleComponent<BoxCustomProps, Theme>(
+const CustomBox = createRestyleComponent<BoxCustomProps, AppTheme>(
   [spacing, layout, createVariant({ themeKey: "buttonVariants" })],
   Box,
 );

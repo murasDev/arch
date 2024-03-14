@@ -15,7 +15,7 @@ export default function SignupScreen() {
       <Box
         flex={1}
         backgroundColor="mainBackground"
-        paddingHorizontal="m"
+        paddingHorizontal="l"
         paddingBottom="m"
         justifyContent="space-between"
       >

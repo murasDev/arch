@@ -34,7 +34,7 @@ export default function CustomFormInput({
       {label && <FormInput.Label>{label}</FormInput.Label>}
       <FormInput.FieldBox isError={!!error}>
         {leadingIcon && (
-          <Icon name={leadingIcon} size="l" color="primaryCardBorderColor" />
+          <Icon name={leadingIcon} size={24} color="primaryCardBorderColor" />
         )}
         <FormInput.Field
           onChangeText={onChangeText}
@@ -49,10 +49,14 @@ export default function CustomFormInput({
             activeOpacity={theme.activeOpacity}
           >
             {!isPasswordVisible ? (
-              <Icon size="l" color="primaryCardBorderColor" name="visibility" />
+              <Icon
+                size={24}
+                color="primaryCardBorderColor"
+                name="visibility"
+              />
             ) : (
               <Icon
-                size="l"
+                size={24}
                 color="primaryCardBorderColor"
                 name="visibility-off"
               />

@@ -20,7 +20,7 @@ export default function SignInScreen() {
 
   return (
     <ScrollView style={{ flex: 1 }} contentContainerStyle={{ flexGrow: 1 }}>
-      <Box flex={1} paddingHorizontal="m" justifyContent="space-around">
+      <Box flex={1} paddingHorizontal="l" justifyContent="space-around">
         <Box width="80%">
           <Text variant="h1">Login</Text>
           <Text variant="body">

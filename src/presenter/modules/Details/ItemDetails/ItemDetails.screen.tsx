@@ -20,7 +20,7 @@ export default function ItemDetails() {
           alt={selectedItem?.name}
           sharedTransitionTag={`homeToDetailsImage${selectedItem?.id}`}
         />
-        <Box padding="m">
+        <Box padding="l">
           <Text variant="subTitle">{selectedItem?.name}</Text>
           <Text variant="h2">{formatToBRL(selectedItem!.value)}</Text>
           <Text variant="body">{selectedItem?.description}</Text>

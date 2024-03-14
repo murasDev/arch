@@ -1,5 +1,5 @@
 import useAppTheme from "@/presenter/hooks/useAppTheme";
-import { Theme } from "@/presenter/theme";
+import { Theme } from "@/presenter/theme/types";
 import {
   BackgroundColorProps,
   BorderProps,

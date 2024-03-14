@@ -1,8 +1,8 @@
+import { Theme, ThemeColors } from "@/presenter/theme/types";
 import { MaterialIcons } from "@expo/vector-icons/";
 import { useTheme } from "@shopify/restyle";
 import React from "react";
 import { TouchableOpacity } from "react-native";
-import { Theme, ThemeColors } from "../../theme";
 
 type Props = {
   onPress: () => void;
